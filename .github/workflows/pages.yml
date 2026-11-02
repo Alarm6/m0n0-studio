@@ -12,6 +12,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   publish:
+    if: vars.BRIEF_API_URL != ''
     runs-on: ubuntu-latest
     environment:
       name: github-pages
