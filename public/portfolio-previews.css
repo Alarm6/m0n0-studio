@@ -1,0 +1,7 @@
+#gallery .project.work-preview{padding:0;height:auto;aspect-ratio:1.72;background:#f6f6f6;overflow:hidden;cursor:pointer;isolation:isolate}
+.work-preview .portfolio-video{position:absolute;inset:30px 0 0;width:100%;height:calc(100% - 30px);object-fit:cover;object-position:center;pointer-events:none;user-select:none;display:block;background:#f8f8f8}
+.work-preview .project-macbar{height:30px}.work-preview .mac-window-name{font-size:8px;font-family:Helvetica,Arial,sans-serif}
+.ring #gallery .project.work-preview{height:auto;aspect-ratio:1.72}.ring .work-preview .portfolio-video{top:20px;height:calc(100% - 20px)}.ring .work-preview .project-macbar{height:20px}.ring .work-preview .mac-window-name{font-size:6px}
+@media(max-width:700px){.work-preview .portfolio-video{top:24px;height:calc(100% - 24px)}.work-preview .project-macbar{height:24px}.ring .work-preview .portfolio-video{top:15px;height:calc(100% - 15px)}.ring .work-preview .project-macbar{height:15px}.ring .work-preview .mac-window-name{font-size:5px}.gallery{height:clamp(235px,65vw,330px)}}
+
+#gallery{user-select:none;-webkit-user-select:none;touch-action:pan-y}.portfolio-video{-webkit-user-drag:none}

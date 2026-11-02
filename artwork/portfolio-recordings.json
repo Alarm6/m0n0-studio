@@ -1,0 +1,35 @@
+{
+  "method": "Recorded actual local websites through browser UI; screenshots encoded to looping H.264 with a short seam crossfade. No generated replacement scenes.",
+  "projects": [
+    {
+      "id": "plusproduct",
+      "name": "+product",
+      "url": "https://plusproduct-preview-241026.ready-flea-2738.chatgpt.site/",
+      "interaction": "Оттягивание чёрного экрана и появление iPhone"
+    },
+    {
+      "id": "yaki-supreme",
+      "name": "Яки Суприм",
+      "url": "https://supreme-yatori.ready-flea-2738.chatgpt.site/",
+      "interaction": "Рыбка уплывает после касания, по воде расходятся круги"
+    },
+    {
+      "id": "emk",
+      "name": "ЕМК",
+      "url": "https://opora-metal-studio.ready-flea-2738.chatgpt.site/",
+      "interaction": "Гайки появляются и закручиваются при прокрутке"
+    },
+    {
+      "id": "horyy",
+      "name": "horyy",
+      "url": "https://horyy-skin-lab.ready-flea-2738.chatgpt.site/",
+      "interaction": "Бутылочка покачивается, жидкость реагирует на движение"
+    },
+    {
+      "id": "character",
+      "name": "ЖК Характер",
+      "url": "https://character-residence.ready-flea-2738.chatgpt.site/",
+      "interaction": "Движение курсора включает свет на фасадах"
+    }
+  ]
+}

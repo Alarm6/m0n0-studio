@@ -1,0 +1,4 @@
+.burst-card{cursor:grab;touch-action:none;user-select:none;-webkit-user-select:none;transition:box-shadow .2s}.burst-card.is-grabbed{cursor:grabbing;box-shadow:0 24px 45px #0003}.burst-card>*{pointer-events:none}.scroll-burst{z-index:9}.scroll-message{z-index:8;pointer-events:none}
+
+.burst-reset{position:absolute;right:3.3%;bottom:80px;z-index:15;border-bottom:1px solid #bbb;padding:8px 0;font-size:11px;color:#555}.burst-reset:hover{color:#000}@media(max-width:700px){.burst-reset{right:6%;font-size:10px;bottom:85px}}
+

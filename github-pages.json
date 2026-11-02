@@ -1,0 +1,11 @@
+{
+  "repository": "m0n0-studio",
+  "directory": "public",
+  "portfolio_urls": {
+    "https://product.m0n0.site/": "https://alarm6.github.io/m0n0-plusproduct/",
+    "https://yaki.m0n0.site/": "https://alarm6.github.io/m0n0-yaki-supreme/yaki-supreme/",
+    "https://emk.m0n0.site/": "https://alarm6.github.io/m0n0-emk/",
+    "https://horyy.m0n0.site/": "https://alarm6.github.io/m0n0-horyy/",
+    "https://character.m0n0.site/": "https://alarm6.github.io/m0n0-character/"
+  }
+}

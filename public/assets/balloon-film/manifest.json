@@ -1,0 +1,26 @@
+[
+  {
+    "variant": "desktop",
+    "file": "desktop-v1.mp4",
+    "bytes": 1419003,
+    "duration": 5.875,
+    "stream": {
+      "codec_name": "h264",
+      "width": 1920,
+      "height": 1200,
+      "pix_fmt": "yuv420p"
+    }
+  },
+  {
+    "variant": "mobile",
+    "file": "mobile-v1.mp4",
+    "bytes": 885429,
+    "duration": 5.875,
+    "stream": {
+      "codec_name": "h264",
+      "width": 900,
+      "height": 1600,
+      "pix_fmt": "yuv420p"
+    }
+  }
+]

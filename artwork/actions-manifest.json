@@ -1,0 +1,47 @@
+{
+  "tool": "image_gen built-in",
+  "assets": [
+    {
+      "name": "gum-bubble",
+      "path": "C:\\Users\\Владислав\\.codex\\generated_images\\01a1759a-8e4f-7082-b925-d09312151b7f\\exec-e40c91d6-4282-4582-8635-c425e31b4dda.png"
+    },
+    {
+      "name": "dragon-flame",
+      "path": "C:\\Users\\Владислав\\.codex\\generated_images\\01a1759a-8e4f-7082-b925-d09312151b7f\\exec-d60ee3e7-af48-44b8-905a-d74a379452e2.png"
+    },
+    {
+      "name": "cat-walk-sheet",
+      "path": "C:\\Users\\Владислав\\.codex\\generated_images\\01a1759a-8e4f-7082-b925-d09312151b7f\\exec-322aa541-019f-4d15-b087-ac15fa86d1cd.png"
+    },
+    {
+      "name": "forest-road",
+      "path": "C:\\Users\\Владислав\\.codex\\generated_images\\01a1759a-8e4f-7082-b925-d09312151b7f\\exec-03ef08af-6406-493c-adda-76ce9e18f384.png"
+    }
+  ],
+  "prompts": [
+    {
+      "name": "gum-bubble",
+      "reference": "C:/Users/Владислав/OneDrive/Документы/ChatGPT/m0n0/studio/artwork/generated/chrome-avatar.png",
+      "transparent": true,
+      "prompt": "Use case: supporting compositing asset for the attached adult fashion avatar. Generate ONLY a single inflated bubblegum bubble, no face or person. A round pale pink semi-opaque elastic gum bubble with realistic glossy 3D material, soft pearly studio highlights and slightly translucent thin edges. Match the avatar's pink accessory and premium 3D aesthetic. Frontal view of a nearly perfect sphere, centred, fills 75 percent of square frame with transparent margins. Genuinely transparent background. No text, no logo, no watermark, no letters. This will be animated growing from her mouth, so keep the bubble a clean complete isolated object. Do not include the avatar or any other object."
+    },
+    {
+      "name": "dragon-flame",
+      "reference": "C:/Users/Владислав/OneDrive/Документы/ChatGPT/m0n0/studio/artwork/generated/vinyl-creature.png",
+      "transparent": true,
+      "prompt": "Use case: supporting VFX asset for the attached emerald vinyl dragon. Generate ONLY an isolated fire-breath plume, not the dragon. A narrow emission root at the RIGHT edge, fire projects horizontally to the LEFT and curls slightly upwards, wide turbulent pointed tongues at the LEFT tip. Hot white-yellow core, saturated yellow-orange body, thin red-orange edges and a few small sparks. Stylized photoreal volumetric flame, suitable for the glossy dragon toy, not a flat icon. Entire plume visible on genuinely transparent background, wide landscape composition with ample margins around every flame tip. Absolutely no text, logos, watermark, animal, mouth or other object."
+    },
+    {
+      "name": "cat-walk-sheet",
+      "reference": "C:/Users/Владислав/OneDrive/Документы/ChatGPT/m0n0/studio/artwork/generated/orange-cats.png",
+      "transparent": true,
+      "prompt": "Use case: animated sprite sheet based on the attached orange cats. Output ONE wide 2:1 PNG sprite sheet with a precise uniform grid of FOUR columns and TWO rows, exactly EIGHT equal cells. Each cell contains the SAME single glowing orange cat in strict SIDE PROFILE FACING RIGHT, same scale, same orange fur, same dark eyes, same curled tail, same body shape and same fixed camera. Across the 8 cells show consecutive evenly spaced key poses of a natural WALK-IN-PLACE cycle: alternating front and hind legs stepping, paws touching an imaginary common baseline, small coherent shoulder movement. Frame 8 flows into frame 1. All four legs anatomically correct in each frame, do not add legs. Every cell contains one COMPLETE cat, tail and paws fully visible, no cropping, 15 percent internal margins. The eight poses must remain highly consistent in body size and design; only leg articulation changes. Keep the neon tangerine-orange colour and soft glow from the reference. Genuinely transparent background for all cells. NO grid lines, NO cell borders, NO labels, NO frame numbers, NO text or watermarks. The 4 by 2 cell layout must be clear and evenly spaced for automatic extraction. This is a walking animation sheet, not eight different cats."
+    },
+    {
+      "name": "forest-road",
+      "reference": "C:/Users/4918~1/AppData/Local/Temp/codex-clipboard-fee55122-5d00-46bb-9a64-ba52fc4eac15.png",
+      "transparent": false,
+      "prompt": "Use case: environment extension for the attached silver sports-car photo. Generate a WIDE LANDSCAPE background plate ONLY, REMOVE THE CAR and all people entirely. Photoreal lush green deciduous roadside forest seen from a low side-on tracking-camera angle, dense layered deep emerald foliage and tree trunks in upper 65 percent, a realistic smooth dark grey asphalt country road across the lower 35 percent, thin pale road-edge markings and a strip of bright green grass. The road runs perfectly horizontally from left to right, with no vanishing-point bend, suitable for compositing a side-profile car. Natural daylight with soft reflections, preserve reference's emerald/lime forest colour palette, gentle horizontal motion blur in foliage but authentic photographic texture and detailed asphalt. No car, no vehicle, no road signs, no lettering, no logo, no watermark. Fill entire rectangular frame, no borders."
+    }
+  ]
+}

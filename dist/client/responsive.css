@@ -1,0 +1,69 @@
+/* Shared layout constraints, sized from the section rather than Safari browser chrome. */
+#menu a,#menu>.contact{font:inherit;letter-spacing:inherit;line-height:1.04;position:relative;padding:0 38px 0 0;margin:12px 0;max-width:100%;white-space:normal}
+#menu sup{position:absolute;right:0;top:0;padding:0;font-size:14px;line-height:1.2}
+.about{padding-top:0}.work-top{justify-content:flex-end}
+.studio-intro h2{max-width:100%;overflow-wrap:anywhere}.studio-intro .wide-word{white-space:normal}
+#brief h2,#privacy h2{overflow-wrap:normal;word-break:normal;white-space:normal}#brief form,#brief .form-step{min-width:0}
+#brief{max-height:calc(var(--visual-height,100svh) - 20px);overscroll-behavior:contain;scroll-padding:24px}
+#gallery .portfolio-poster{position:absolute;inset:30px 0 0;width:100%;height:calc(100% - 30px);object-fit:contain;background:#f6f6f6;pointer-events:none}
+#gallery .portfolio-video{object-fit:contain;opacity:0;backface-visibility:visible;-webkit-backface-visibility:visible}
+#gallery [data-preview-ready="true"] .portfolio-video{opacity:1}
+.ring #gallery .portfolio-poster{top:20px;height:calc(100% - 20px)}
+@media(max-width:700px){
+ #menu{padding:100px 8% 50px;font-size:clamp(42px,12vw,76px)}#menu a,#menu>.contact{width:100%;margin:14px 0;padding-right:28px}#menu sup{font-size:12px}
+ .scroll-burst .burst-card{width:clamp(84px,26vw,130px);height:auto;aspect-ratio:1.4}
+ .scroll-message .message-one{font-size:clamp(24px,7.4vw,40px);max-width:90%;line-height:1.08}
+ .studio-intro h2{font-size:clamp(30px,8.5vw,54px)}.studio-intro{padding:55px 0 65px}
+ .work h2{margin:28px 0 38px}.gallery{height:clamp(230px,68vw,340px)}
+ #gallery .portfolio-poster{top:24px;height:calc(100% - 24px)}
+ #gallery .project.work-preview{aspect-ratio:1.4}
+ .work.ring .gallery{height:510px}.ring #gallery .project.work-preview{aspect-ratio:1.4;top:100px}
+ .work.ring #workTitle{transform:translateY(210px)}.work.ring #allWorks{transform:translateY(210px)}
+ .ring #gallery .portfolio-poster{top:15px;height:calc(100% - 15px)}
+ .work.ring .gallery-controls{margin-top:0}.ring .ring-hint{margin-bottom:24px}
+ .physics-title{font-size:clamp(26px,7.9vw,54px);line-height:1.12}.physics-title>span{width:auto}
+ #brief .eyebrow{font-size:9px;gap:12px;padding-right:15px;line-height:1.5}
+}
+@media(prefers-reduced-motion:reduce){#gallery .portfolio-video{opacity:0}}
+
+@media(max-width:700px){.work.ring #workTitle{font-size:26px;width:110px;margin-inline:auto;line-height:1.05}.work.ring #allWorks{max-width:100px}}
+
+/* Compact presentation and consistent preview proportions. */
+.gallery-controls{display:none!important}.ring-hint{text-align:center;font-size:11px;color:#888;margin:20px 0 24px}
+#work:not(.ring) #workTitle,#work:not(.ring) #allWorks{transform:none!important}
+#work:not(.ring) #workTitle{margin:28px 0 16px}#work:not(.ring) #allWorks.work-view-switch{margin:0 auto 30px}
+#work.ring #allWorks.work-view-switch{background:none;border:0;box-shadow:none}
+.scroll-stage .play-bottom #pullHint small{color:#999;opacity:1}
+@media(max-width:700px){
+ .scroll-burst .burst-card{--float-card-width:clamp(84px,26vw,130px);width:var(--float-card-width);height:auto;aspect-ratio:190/145}
+ .scroll-burst .burst-card .mac-titlebar{height:calc(var(--float-card-width)*25/190);padding-inline:5px}
+ .scroll-burst .burst-card .motion-visual{top:calc(var(--float-card-width)*25/190)}
+ .scroll-burst .burst-card .mac-controls i{width:4px;height:4px}
+ .scroll-burst .burst-card .motion-visual img,.falling-card .motion-visual img{object-fit:contain}
+ .falling-card.burst-card{height:auto;aspect-ratio:166/128}
+ .studio-intro{min-height:50svh;padding:28px 0;display:flex;flex-direction:column;justify-content:center;gap:22px}
+ .studio-intro h2{margin:0}.studio-intro p{margin-top:0}
+ .work-top{padding:8px 0 20px}.work{padding-top:0}
+ .work:not(.ring) .gallery{height:clamp(230px,68vw,340px)}
+ .work .ring-hint{margin:14px 0 28px}
+}
+
+.scroll-stage .play-bottom #pullHint small{font-size:inherit}
+
+/* A shared, fixed-height stage prevents scroll anchoring when switching views. */
+#work .portfolio-stage{position:relative;height:100svh;min-height:620px;isolation:isolate;overflow:visible}
+#work .portfolio-stage #gallery{position:absolute;inset:0;width:100%;height:100%!important;margin:0;z-index:1;pointer-events:none}
+#work .portfolio-stage .project{top:var(--feed-y);pointer-events:auto}
+#work.ring .portfolio-stage .project{top:0}
+#work .portfolio-stage #workTitle{position:absolute;top:var(--title-y,0px);left:50%;width:100%;height:auto;margin:0;transform:translateX(-50%)!important;transition:none;z-index:4;line-height:1.08}
+#work .portfolio-stage #allWorks.work-view-switch{position:absolute;top:var(--button-y,54px);left:50%;transform:translateX(-50%)!important;margin:0;padding:8px 14px;z-index:5}
+#work .portfolio-stage .ring-hint{position:absolute;bottom:12px;left:0;right:0;margin:0;z-index:4;pointer-events:none}
+#work .portfolio-stage[data-transitioning] #gallery{pointer-events:none}
+#work .portfolio-stage[data-transitioning] .project{pointer-events:none}
+#work .portfolio-stage #allWorks:disabled{opacity:0;cursor:default}
+.closing h2>.wide-line{color:#151515}.closing h2>.wide-line:last-child{color:#999}
+@media(max-width:700px){#work .portfolio-stage{min-height:540px}#work.ring .portfolio-stage #workTitle{width:110px;font-size:26px}#work .portfolio-stage #workTitle{font-size:28px}}
+@media(max-width:700px){#work .portfolio-stage{height:clamp(480px,62svh,600px);min-height:480px}}
+#work.ring .portfolio-stage .ring-hint{visibility:hidden}
+#work .portfolio-stage{overflow-anchor:none}
+#work.ring .studio-intro,#work.ring .work-top{opacity:0;pointer-events:none}#work .studio-intro,#work .work-top{transition:opacity .2s}

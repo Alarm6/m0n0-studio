@@ -1,0 +1,13 @@
+[
+  {
+    "name": "vinyl-creature",
+    "file": "vinyl-creature-v4",
+    "webp": "assets/motion/vinyl-creature-v4.webp",
+    "gif": "assets/motion/vinyl-creature-v4.gif",
+    "poster": "assets/motion/vinyl-creature-v4-poster.webp",
+    "frames": 96,
+    "duration_ms": 4032,
+    "webp_bytes": 149424,
+    "gif_bytes": 907518
+  }
+]

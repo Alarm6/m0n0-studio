@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "rope-bag",
+    "alt": "Оливковая сумка с плетёной ручкой",
+    "webp": "assets/motion/rope-bag.webp",
+    "gif": "assets/motion/rope-bag.gif",
+    "poster": "assets/motion/rope-bag-poster.webp",
+    "frames": 48,
+    "duration_ms": 3024,
+    "webp_bytes": 306380,
+    "gif_bytes": 960170
+  },
+  {
+    "id": 2,
+    "name": "chrome-avatar",
+    "alt": "Хромированный fashion-аватар",
+    "webp": "assets/motion/chrome-avatar.webp",
+    "gif": "assets/motion/chrome-avatar.gif",
+    "poster": "assets/motion/chrome-avatar-poster.webp",
+    "frames": 48,
+    "duration_ms": 3024,
+    "webp_bytes": 304646,
+    "gif_bytes": 912920
+  },
+  {
+    "id": 3,
+    "name": "gamepad",
+    "alt": "Серебристый игровой контроллер",
+    "webp": "assets/motion/gamepad.webp",
+    "gif": "assets/motion/gamepad.gif",
+    "poster": "assets/motion/gamepad-poster.webp",
+    "frames": 48,
+    "duration_ms": 3024,
+    "webp_bytes": 251880,
+    "gif_bytes": 1017068
+  },
+  {
+    "id": 4,
+    "name": "orange-cats",
+    "alt": "Три светящихся оранжевых кота",
+    "webp": "assets/motion/orange-cats.webp",
+    "gif": "assets/motion/orange-cats.gif",
+    "poster": "assets/motion/orange-cats-poster.webp",
+    "frames": 48,
+    "duration_ms": 3024,
+    "webp_bytes": 176994,
+    "gif_bytes": 986647
+  },
+  {
+    "id": 5,
+    "name": "jade-figure",
+    "alt": "Фигурка из зелёного мраморного материала",
+    "webp": "assets/motion/jade-figure.webp",
+    "gif": "assets/motion/jade-figure.gif",
+    "poster": "assets/motion/jade-figure-poster.webp",
+    "frames": 48,
+    "duration_ms": 3024,
+    "webp_bytes": 178316,
+    "gif_bytes": 895327
+  },
+  {
+    "id": 6,
+    "name": "vinyl-creature",
+    "alt": "Изумрудный виниловый монстр",
+    "webp": "assets/motion/vinyl-creature.webp",
+    "gif": "assets/motion/vinyl-creature.gif",
+    "poster": "assets/motion/vinyl-creature-poster.webp",
+    "frames": 48,
+    "duration_ms": 3024,
+    "webp_bytes": 373670,
+    "gif_bytes": 896867
+  },
+  {
+    "id": 7,
+    "name": "silver-coupe",
+    "alt": "Серебристое спортивное купе",
+    "webp": "assets/motion/silver-coupe.webp",
+    "gif": "assets/motion/silver-coupe.gif",
+    "poster": "assets/motion/silver-coupe-poster.webp",
+    "frames": 48,
+    "duration_ms": 3024,
+    "webp_bytes": 297402,
+    "gif_bytes": 985587
+  }
+]

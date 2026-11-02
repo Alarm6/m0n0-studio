@@ -1,0 +1,7 @@
+.wide-heading .wide-line{display:block;width:auto;max-width:100%;white-space:normal;line-height:1.08;overflow-wrap:anywhere}
+.wide-word{display:inline-block;white-space:nowrap;max-width:100%}
+.wide-letter{display:inline-block;transition:padding-right .24s cubic-bezier(.2,.8,.25,1);cursor:default}
+.wide-letter>span{display:inline-block;transform-origin:left center;transition:transform .24s cubic-bezier(.2,.8,.25,1);pointer-events:none}
+.zoom-type{pointer-events:auto}.zoom-type path{pointer-events:visiblePainted;cursor:default}
+.closing .wide-line:last-child{color:#999}
+@media(prefers-reduced-motion:reduce){.wide-letter,.wide-letter>span{transition:none}}

@@ -1,0 +1,46 @@
+[
+  {
+    "name": "chrome-avatar",
+    "file": "chrome-avatar-v2",
+    "webp": "assets/motion/chrome-avatar-v2.webp",
+    "gif": "assets/motion/chrome-avatar-v2.gif",
+    "poster": "assets/motion/chrome-avatar-v2-poster.webp",
+    "frames": 96,
+    "duration_ms": 4032,
+    "webp_bytes": 99574,
+    "gif_bytes": 919330
+  },
+  {
+    "name": "vinyl-creature",
+    "file": "vinyl-creature-v3",
+    "webp": "assets/motion/vinyl-creature-v3.webp",
+    "gif": "assets/motion/vinyl-creature-v3.gif",
+    "poster": "assets/motion/vinyl-creature-v3-poster.webp",
+    "frames": 96,
+    "duration_ms": 4032,
+    "webp_bytes": 148232,
+    "gif_bytes": 921702
+  },
+  {
+    "name": "orange-cats",
+    "file": "orange-cats-v3",
+    "webp": "assets/motion/orange-cats-v3.webp",
+    "gif": "assets/motion/orange-cats-v3.gif",
+    "poster": "assets/motion/orange-cats-v3-poster.webp",
+    "frames": 96,
+    "duration_ms": 4032,
+    "webp_bytes": 384954,
+    "gif_bytes": 1196107
+  },
+  {
+    "name": "silver-coupe",
+    "file": "silver-coupe-v3",
+    "webp": "assets/motion/silver-coupe-v3.webp",
+    "gif": "assets/motion/silver-coupe-v3.gif",
+    "poster": "assets/motion/silver-coupe-v3-poster.webp",
+    "frames": 96,
+    "duration_ms": 4032,
+    "webp_bytes": 353514,
+    "gif_bytes": 2221550
+  }
+]

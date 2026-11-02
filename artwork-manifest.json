@@ -1,0 +1,40 @@
+{
+  "tool": "image_gen built-in",
+  "assets": [
+    {
+      "id": 1,
+      "name": "rope-bag",
+      "path": "C:\\Users\\Владислав\\.codex\\generated_images\\01a1759a-8e4f-7082-b925-d09312151b7f\\exec-d26fb455-54fc-47b9-bf20-fee35b084534.png"
+    },
+    {
+      "id": 2,
+      "name": "chrome-avatar",
+      "path": "C:\\Users\\Владислав\\.codex\\generated_images\\01a1759a-8e4f-7082-b925-d09312151b7f\\exec-979fd331-4c7f-429a-a7fa-de0ee9466e73.png"
+    },
+    {
+      "id": 3,
+      "name": "gamepad",
+      "path": "C:\\Users\\Владислав\\.codex\\generated_images\\01a1759a-8e4f-7082-b925-d09312151b7f\\exec-7976a5a2-30af-4588-87a7-a914b442ca05.png"
+    },
+    {
+      "id": 4,
+      "name": "orange-cats",
+      "path": "C:\\Users\\Владислав\\.codex\\generated_images\\01a1759a-8e4f-7082-b925-d09312151b7f\\exec-79aefcd3-738b-4deb-85f3-b28e3b762263.png"
+    },
+    {
+      "id": 5,
+      "name": "jade-figure",
+      "path": "C:\\Users\\Владислав\\.codex\\generated_images\\01a1759a-8e4f-7082-b925-d09312151b7f\\exec-9fd6a9a2-78d2-478a-a8ae-6bd92327196f.png"
+    },
+    {
+      "id": 6,
+      "name": "vinyl-creature",
+      "path": "C:\\Users\\Владислав\\.codex\\generated_images\\01a1759a-8e4f-7082-b925-d09312151b7f\\exec-e802829d-12cc-4d58-b38d-b58f49fb3f97.png"
+    },
+    {
+      "id": 7,
+      "name": "silver-coupe",
+      "path": "C:\\Users\\Владислав\\.codex\\generated_images\\01a1759a-8e4f-7082-b925-d09312151b7f\\exec-af582d7b-c62d-4779-87f5-29b9b1fb64da.png"
+    }
+  ]
+}

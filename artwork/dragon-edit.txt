@@ -1,0 +1,1 @@
+Built-in ImageGen edit: preserve dragon pose, emerald/gold/lilac palette and transparent background; open mouth visibly with teeth and tongue, no generated fire. Animated flame anchored at lips in render_action_loops.py. Source: generated/vinyl-creature-open.png

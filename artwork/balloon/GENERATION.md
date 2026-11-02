@@ -1,0 +1,9 @@
+# Inflatable m0n0
+
+Generated with the built-in image_gen tool. Source: `m0n0-balloon-sheet.png`. Runtime cutouts: `dist/assets/balloon/letter-0.webp` through `letter-3.webp`.
+
+Prompt: Create a photorealistic 3D sprite sheet for the interactive website logo m0n0. Four separate inflated latex balloon glyphs in one horizontal row: lowercase m, numeral 0, lowercase n, numeral 0. Helvetica Regular skeletons, thick softly inflated volume, pale silver pearlescent latex with subtle lilac, icy blue and pink reflections. Realistic seams, gathered knots, studio highlights and wrinkles around joins. Front orthographic camera, identical scale and material, generous clear gaps, aligned bottoms. Genuine transparent background, no ground plane or background shadows, no additional labels. Wide landscape composition. High-end macro product photograph quality.
+
+Current runtime: two pre-rendered H.264 videos, desktop 1920x1200 and mobile 900x1600. Geometry and material are authored in Blender using `scripts/prepare_balloon_film.py`, `scripts/render_balloon_film.py` and `scripts/encode_balloon_film.py`. Inflated glyph fields deform into softly compressed, curved cells; reflective foil uses procedural micro-bump and studio reflection cards. Source still images above are retained for provenance but are not enlarged by the current player.
+
+Runtime files: `dist/assets/balloon-film/desktop-v1.mp4`, `mobile-v1.mp4`, with initial/final WebP posters. Exact dimensions, duration and byte counts are in `dist/assets/balloon-film/manifest.json`. Only the device-appropriate video is attached when approaching the section. The first 1.5 seconds idle-loop; clicking plays expansion and freezes on the final poster until the whole section leaves view. Text and project button are HTML above the film. No browser physics or canvas animation is used in this block.

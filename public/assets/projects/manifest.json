@@ -1,0 +1,72 @@
+[
+  {
+    "id": "plusproduct",
+    "file": "plusproduct-v1.mp4",
+    "bytes": 373845,
+    "duration": 9.0,
+    "stream": {
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 720,
+      "nb_frames": "216"
+    },
+    "captured_frames": 164,
+    "captured_ms": 15173
+  },
+  {
+    "id": "horyy",
+    "file": "horyy-v1.mp4",
+    "bytes": 213339,
+    "duration": 8.0,
+    "stream": {
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 720,
+      "nb_frames": "192"
+    },
+    "captured_frames": 145,
+    "captured_ms": 10050
+  },
+  {
+    "id": "yaki-supreme",
+    "file": "yaki-supreme-v2.mp4",
+    "bytes": 223578,
+    "duration": 7.458333,
+    "stream": {
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 720,
+      "nb_frames": "179"
+    },
+    "captured_frames": 95,
+    "captured_ms": 26846
+  },
+  {
+    "id": "emk",
+    "file": "emk-v2.mp4",
+    "bytes": 822448,
+    "duration": 9.0,
+    "stream": {
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 720,
+      "nb_frames": "216"
+    },
+    "captured_frames": 100,
+    "captured_ms": 34133
+  },
+  {
+    "id": "character",
+    "file": "character-v2.mp4",
+    "bytes": 310329,
+    "duration": 9.0,
+    "stream": {
+      "codec_name": "h264",
+      "width": 1280,
+      "height": 720,
+      "nb_frames": "216"
+    },
+    "captured_frames": 100,
+    "captured_ms": 34901
+  }
+]
