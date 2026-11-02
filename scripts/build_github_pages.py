@@ -27,9 +27,19 @@ for p in output.rglob('*'):
                 icon['src'] = base+icon['src'].lstrip('/')
         s = json.dumps(data, ensure_ascii=False)
     if config['repository'] == 'm0n0-studio' and p.name == 'index.html':
-        endpoint = os.environ.get('BRIEF_API_URL','')
-        assert endpoint.startswith('https://'), 'Set BRIEF_API_URL and allow https://alarm6.github.io in backend CORS before studio deployment'
-        s = s.replace('data-endpoint="/api/brief"', 'data-endpoint="'+endpoint+'"')
+        if config.get('preview_without_form'):
+            s = re.sub(r'<dialog\b[^>]*\bid="brief"[^>]*>.*?</dialog>', '', s, flags=re.S)
+            s = re.sub(r'(<button\b[^>]*class="[^"]*\bcontact\b[^"]*"[^>]*>).*?</button>', r'\1Смотреть работы</button>', s, flags=re.S)
+            s = re.sub(r'(<dialog id="privacy".*?<p>).*?</p>', r'\1Просмотрная версия портфолио m0n0. Формы и отправка заявок здесь отключены.</p>', s, flags=re.S)
+        else:
+            endpoint = os.environ.get('BRIEF_API_URL','')
+            assert endpoint.startswith('https://'), 'Set BRIEF_API_URL and allow https://alarm6.github.io in backend CORS before studio deployment'
+            s = s.replace('data-endpoint="/api/brief"', 'data-endpoint="'+endpoint+'"')
+    if config['repository'] == 'm0n0-studio' and config.get('preview_without_form') and p.name == 'app.js':
+        start = s.index("const brief=$('#brief')")
+        end = s.index("$('#privacyBtn').onclick=", start)
+        s = s[:start]+"$$('.contact').forEach(b=>b.onclick=()=>{closeMenu();document.querySelector('#work').scrollIntoView({behavior:'smooth'})});\n"+s[end:]
+        s = s.replace('renderStep();','')
     if config['repository'] == 'm0n0-studio' and p.name == 'projects.js':
         for old,new in config['portfolio_urls'].items():
             s = s.replace(old,new)
